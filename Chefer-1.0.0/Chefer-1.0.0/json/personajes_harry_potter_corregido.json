@@ -1,0 +1,425 @@
+[
+  {
+    "nombre": "Harry Potter",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "valiente",
+      "leal",
+      "impulsivo"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    },
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg"
+
+  },
+  {
+    "nombre": "Hermione Granger",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "inteligente",
+      "perfeccionista",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "inteligencia",
+      "trabajo": "equipo",
+      "problema": "investigar primero"
+    },
+      "imagen": "https://i.pinimg.com/originals/b7/0f/76/b70f76a05534d4c6af16c0de1980f271.jpg"},
+  {
+    "nombre": "Ron Weasley",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "leal",
+      "amigable",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    },
+    "imagen": "https://i.pinimg.com/736x/1d/f7/31/1df7316694c2bfb68711ed6776dde9fa.jpg"
+  },
+  {
+    "nombre": "Draco Malfoy",
+    "casa": "Slytherin",
+    "rasgos": [
+      "ambicioso",
+      "orgulloso",
+      "astuto"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "solo",
+      "problema": "evitar el conflicto directo"
+    }
+  },
+  {
+    "nombre": "Luna Lovegood",
+    "casa": "Ravenclaw",
+    "rasgos": [
+      "soñadora",
+      "inteligente",
+      "creativa"
+    ],
+    "respuesta_clave": {
+      "valor": "inteligencia",
+      "trabajo": "solo",
+      "problema": "pensar diferente"
+    }
+  },
+  {
+    "nombre": "Cedric Diggory",
+    "casa": "Hufflepuff",
+    "rasgos": [
+      "justo",
+      "leal",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "equipo",
+      "problema": "ser justo y cooperar"
+    }
+  },
+  {
+    "nombre": "Neville Longbottom",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "valiente",
+      "noble",
+      "reservado"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Ginny Weasley",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "valiente",
+      "decidida",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Fred Weasley",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "divertido",
+      "valiente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "George Weasley",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "divertido",
+      "ingenioso",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "Severus Snape",
+    "casa": "Slytherin",
+    "rasgos": [
+      "inteligente",
+      "frío",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "solo",
+      "problema": "investigar primero"
+    }
+  },
+  {
+    "nombre": "Albus Dumbledore",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "sabio",
+      "inteligente",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "inteligencia",
+      "trabajo": "equipo",
+      "problema": "pensar diferente"
+    }
+  },
+  {
+    "nombre": "Minerva McGonagall",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "justa",
+      "estricta",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "ser justo y cooperar"
+    }
+  },
+  {
+    "nombre": "Sirius Black",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "rebelde",
+      "valiente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Remus Lupin",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "sabio",
+      "tolerante",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "inteligencia",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "Rubeus Hagrid",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "bondadoso",
+      "valiente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Bellatrix Lestrange",
+    "casa": "Slytherin",
+    "rasgos": [
+      "cruel",
+      "fanática",
+      "ambiciosa"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "solo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Lord Voldemort",
+    "casa": "Slytherin",
+    "rasgos": [
+      "ambicioso",
+      "cruel",
+      "astuto"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "solo",
+      "problema": "evitar el conflicto directo"
+    }
+  },
+  {
+    "nombre": "Lucius Malfoy",
+    "casa": "Slytherin",
+    "rasgos": [
+      "ambicioso",
+      "orgulloso",
+      "astuto"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "solo",
+      "problema": "evitar el conflicto directo"
+    }
+  },
+  {
+    "nombre": "Narcissa Malfoy",
+    "casa": "Slytherin",
+    "rasgos": [
+      "protectora",
+      "orgullosa",
+      "astuta"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "solo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "Cho Chang",
+    "casa": "Ravenclaw",
+    "rasgos": [
+      "sensible",
+      "inteligente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "inteligencia",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "Fleur Delacour",
+    "casa": "Beauxbatons",
+    "rasgos": [
+      "orgullosa",
+      "valiente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Viktor Krum",
+    "casa": "Durmstrang",
+    "rasgos": [
+      "serio",
+      "competitivo",
+      "valiente"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "solo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Horace Slughorn",
+    "casa": "Slytherin",
+    "rasgos": [
+      "sociable",
+      "ambicioso",
+      "astuto"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "Dolores Umbridge",
+    "casa": "Slytherin",
+    "rasgos": [
+      "controladora",
+      "cruel",
+      "ambiciosa"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "equipo",
+      "problema": "evitar el conflicto directo"
+    }
+  },
+  {
+    "nombre": "Peter Pettigrew",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "cobarde",
+      "traidor",
+      "sumiso"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "equipo",
+      "problema": "evitar el conflicto directo"
+    }
+  },
+  {
+    "nombre": "Dean Thomas",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "amigable",
+      "leal",
+      "creativo"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  },
+  {
+    "nombre": "Seamus Finnigan",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "impulsivo",
+      "valiente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "actuar rápidamente"
+    }
+  },
+  {
+    "nombre": "Kingsley Shacklebolt",
+    "casa": "Desconocida",
+    "rasgos": [
+      "inteligente",
+      "valiente",
+      "calmado"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "pensar diferente"
+    }
+  },
+  {
+    "nombre": "Nymphadora Tonks",
+    "casa": "Hufflepuff",
+    "rasgos": [
+      "divertida",
+      "valiente",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "equipo",
+      "problema": "consultar con amigos"
+    }
+  }
+]
