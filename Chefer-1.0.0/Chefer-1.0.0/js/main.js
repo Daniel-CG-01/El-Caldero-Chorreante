@@ -53,3 +53,35 @@
     
 })(jQuery);
 
+window.onload = function () {
+    var valencia = new google.maps.LatLng(39.4497764, -0.3764262);
+
+    var mapOptions = {
+        center: valencia,
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var mapaValencia = new google.maps.Map(document.getElementById('mapa'), mapOptions);
+
+    var marker = new google.maps.Marker({
+        position: valencia,
+        map: mapaValencia,
+        title: 'CIPFP Ausiàs March de Valencia'
+    });
+
+    var infowindow = new google.maps.InfoWindow({
+        content:
+            '<img style="width: 200px; height: 100px;" src="img/Instituto_Ausiàs_March.jpg" alt="">' + 
+            '<h5 style="margin-bottom: 5px;">CIPFP Ausiàs March</h5>' + 
+            '<p style="margin:0;">Carrer Àngel de Villena, s/n<br>46013 Valencia</p>'
+    });
+
+    // Mostrar ventana automáticamente al cargar
+    infowindow.open(mapaValencia, marker);
+
+    // También abrir al hacer clic en el marcador
+    marker.addListener('click', function () {
+        infowindow.open(mapaValencia, marker);
+    });
+};
