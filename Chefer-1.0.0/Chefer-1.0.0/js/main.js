@@ -77,9 +77,6 @@ window.onload = function () {
             '<p style="margin:0;">Carrer Àngel de Villena, s/n<br>46013 Valencia</p>'
     });
 
-    // Mostrar ventana automáticamente al cargar
-    infowindow.open(mapaValencia, marker);
-
     // También abrir al hacer clic en el marcador
     marker.addListener('click', function () {
         infowindow.open(mapaValencia, marker);
