@@ -85,6 +85,9 @@ document.getElementById("casas").addEventListener("submit", function (e) {
 
 //Mapa de Google Maps
 window.onload = function () {
+    var mapaDiv = document.getElementById('mapa');
+    if (!mapaDiv) return; //No hay div con id "mapa", no se hace nada
+
     var valencia = new google.maps.LatLng(39.4497764, -0.3764262);
 
     var mapOptions = {
@@ -93,7 +96,7 @@ window.onload = function () {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    var mapaValencia = new google.maps.Map(document.getElementById('mapa'), mapOptions);
+    var mapaValencia = new google.maps.Map(mapaDiv, mapOptions);
 
     var marker = new google.maps.Marker({
         position: valencia,
