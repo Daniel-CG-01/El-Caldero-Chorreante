@@ -83,7 +83,7 @@
       "valiente"
     ],
     "respuesta_clave": {
-      "valor": "lealtad",
+      "valor": "ambición",
       "trabajo": "equipo",
       "problema": "ser justo y cooperar"
     },
@@ -100,7 +100,7 @@
     "respuesta_clave": {
       "valor": "coraje",
       "trabajo": "equipo",
-      "problema": "actuar rápidamente"
+      "problema": "evitar el conflicto directo"
     },
     "imagen": "https://i.pinimg.com/736x/2b/2b/1e/2b2b1e6a0d41de7efd35df05a58180c0.jpg"
   },
@@ -114,8 +114,8 @@
     ],
     "respuesta_clave": {
       "valor": "coraje",
-      "trabajo": "equipo",
-      "problema": "actuar rápidamente"
+      "trabajo": "solo",
+      "problema": "pensar diferente"
     },
     "imagen": "https://i.pinimg.com/736x/c3/6b/e9/c36be9d6cd162020d62782fc29efd823.jpg"
   },
@@ -144,7 +144,7 @@
     ],
     "respuesta_clave": {
       "valor": "coraje",
-      "trabajo": "equipo",
+      "trabajo": "solo",
       "problema": "consultar con amigos"
     },
     "imagen": "https://i.pinimg.com/736x/57/31/1a/57311a3f35c9b9fa9b9d1939ea8cca62.jpg"
@@ -159,7 +159,7 @@
     ],
     "respuesta_clave": {
       "valor": "ambición",
-      "trabajo": "solo",
+      "trabajo": "equipo",
       "problema": "investigar primero"
     },
     "imagen": "https://i.pinimg.com/736x/07/2c/52/072c52564a60a8787ed7c470f6ce8727.jpg"
@@ -188,7 +188,7 @@
       "valiente"
     ],
     "respuesta_clave": {
-      "valor": "coraje",
+      "valor": "inteligencia",
       "trabajo": "equipo",
       "problema": "ser justo y cooperar"
     },
@@ -203,8 +203,8 @@
       "leal"
     ],
     "respuesta_clave": {
-      "valor": "coraje",
-      "trabajo": "equipo",
+      "valor": "inteligencia",
+      "trabajo": "solo",
       "problema": "actuar rápidamente"
     },
     "imagen": "https://i.pinimg.com/736x/10/35/a3/1035a31237bac6b19fc6e9ce0a106069.jpg"
@@ -265,7 +265,7 @@
     "respuesta_clave": {
       "valor": "ambición",
       "trabajo": "solo",
-      "problema": "evitar el conflicto directo"
+      "problema": "pensar diferente"
     },
     "imagen": "https://i.pinimg.com/736x/cd/67/29/cd672978f56d4a4b47810e6f02f17033.jpg"
   },
@@ -279,8 +279,8 @@
     ],
     "respuesta_clave": {
       "valor": "ambición",
-      "trabajo": "solo",
-      "problema": "evitar el conflicto directo"
+      "trabajo": "equipo",
+      "problema": "pensar diferente"
     },
     "imagen": "https://i.pinimg.com/736x/0e/29/c3/0e29c385e99bfc56675fc735478a4c55.jpg"
   },
@@ -295,7 +295,7 @@
     "respuesta_clave": {
       "valor": "lealtad",
       "trabajo": "solo",
-      "problema": "consultar con amigos"
+      "problema": "evitar el conflicto directo"
     },
     "imagen": "https://i.pinimg.com/736x/5d/aa/22/5daa22e5f4e7b56847dd86e8d988b048.jpg"
   },
@@ -310,7 +310,7 @@
     "respuesta_clave": {
       "valor": "inteligencia",
       "trabajo": "equipo",
-      "problema": "consultar con amigos"
+      "problema": "actuar rápidamente"
     },
     "imagen": "https://i.pinimg.com/736x/23/0c/9c/230c9c4c7a3a96c7d7ed2d2cd501ecae.jpg"
   },
@@ -325,7 +325,7 @@
     "respuesta_clave": {
       "valor": "coraje",
       "trabajo": "equipo",
-      "problema": "actuar rápidamente"
+      "problema": "investigar primero"
     },
     "imagen": "https://i.pinimg.com/736x/ff/ae/26/ffae26eb43755b4239a146eb7eafe307.jpg"
   },
@@ -343,6 +343,51 @@
       "problema": "actuar rápidamente"
     },
     "imagen": "https://i.pinimg.com/736x/37/00/45/3700458f7ccebdc439728ad31c9ffafd.jpg"
+  },
+  {
+    "nombre": "Arthur Weasley",
+    "casa": "Gryffindor",
+    "rasgos": [
+      "amable",
+      "curioso",
+      "justo"
+    ],
+    "respuesta_clave": {
+      "valor": "coraje",
+      "trabajo": "equipo",
+      "problema": "ser justo y cooperar"
+    },
+    "imagen": "http://googleusercontent.com/image_generation_content/1"
+  },
+  {
+    "nombre": "Pomona Sprout",
+    "casa": "Hufflepuff",
+    "rasgos": [
+      "leal",
+      "trabajadora",
+      "justa"
+    ],
+    "respuesta_clave": {
+      "valor": "lealtad",
+      "trabajo": "equipo",
+      "problema": "ser justo y cooperar"
+    },
+    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202302/0919/Z8pS9dE2eFvK2fO4mX9c6r6r.jpg"
+  },
+  {
+    "nombre": "Barty Crouch Jr.",
+    "casa": "Slytherin",
+    "rasgos": [
+      "ambicioso",
+      "astuto",
+      "leal"
+    ],
+    "respuesta_clave": {
+      "valor": "ambición",
+      "trabajo": "solo",
+      "problema": "ser justo y cooperar"
+    },
+    "imagen": "http://googleusercontent.com/image_generation_content/3"
   },
   {
     "nombre": "Horace Slughorn",
@@ -370,7 +415,7 @@
     "respuesta_clave": {
       "valor": "ambición",
       "trabajo": "equipo",
-      "problema": "evitar el conflicto directo"
+      "problema": "actuar rápidamente"
     },
     "imagen": "https://i.pinimg.com/736x/d3/28/c7/d328c7b743c1168712bbd87e17351928.jpg"
   },
@@ -399,8 +444,8 @@
     ],
     "respuesta_clave": {
       "valor": "lealtad",
-      "trabajo": "equipo",
-      "problema": "consultar con amigos"
+      "trabajo": "solo",
+      "problema": "ser justo y cooperar"
     },
     "imagen": "https://i.pinimg.com/736x/17/ca/44/17ca4477e43493d1c2dd1dcee5f59bba.jpg"
   },
@@ -413,9 +458,9 @@
       "leal"
     ],
     "respuesta_clave": {
-      "valor": "coraje",
+      "valor": "lealtad",
       "trabajo": "equipo",
-      "problema": "actuar rápidamente"
+      "problema": "investigar primero"
     },
     "imagen": "https://i.pinimg.com/736x/9e/d9/7b/9ed97b39229828953b4ee763162db978.jpg"
   },
@@ -444,8 +489,8 @@
     ],
     "respuesta_clave": {
       "valor": "lealtad",
-      "trabajo": "equipo",
-      "problema": "consultar con amigos"
+      "trabajo": "solo",
+      "problema": "actuar rápidamente"
     },
     "imagen": "https://i.pinimg.com/736x/45/62/f7/4562f7ad4ce92deecabce16b9c095616.jpg"
   }

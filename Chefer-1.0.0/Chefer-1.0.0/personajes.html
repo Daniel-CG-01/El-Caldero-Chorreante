@@ -34,7 +34,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
@@ -56,7 +57,7 @@
                             <p class="mb-0">danielzanon2005@gmail.com | rOnald19202006@gmail.com</p>
                         </div>
                     </div>
-                    <div class="col-6 px-5 text-end">    
+                    <div class="col-6 px-5 text-end">
                         <div class="h-100 d-inline-flex align-items-center py-2">
                             <i class="fa fa-phone-alt text-primary me-2"></i>
                             <p class="mb-0">+34 644 70 36 00 | +34 654 92 43 07</p>
@@ -121,11 +122,12 @@
                     <div class="position-relative overflow-hidden rounded-circle rounded-bottom rounded-end">
                         <img class="img-fluid w-100" src="img/HarryPotter.webp">
                         <div class="team-overlay">
-                            <p class="small text-uppercase text-secondary m-0" style="text-align: center; font-size: 15px; padding: 15px;">
-                                Harry Potter es el protagonista principal. Es un niño huérfano que vive con sus crueles 
-                                tíos hasta que en su undécimo cumpleaños se entera de que es un mago y averigua que 
-                                cuando tenía un año, lord Voldemort asesinó a sus padres, y cuando quiso hacer lo mismo 
-                                con él, la maldición asesina se volvió sobre sí mismo, haciéndolo desaparecer, mientras 
+                            <p class="small text-uppercase text-secondary m-0"
+                                style="text-align: center; font-size: 15px; padding: 15px;">
+                                Harry Potter es el protagonista principal. Es un niño huérfano que vive con sus crueles
+                                tíos hasta que en su undécimo cumpleaños se entera de que es un mago y averigua que
+                                cuando tenía un año, lord Voldemort asesinó a sus padres, y cuando quiso hacer lo mismo
+                                con él, la maldición asesina se volvió sobre sí mismo, haciéndolo desaparecer, mientras
                                 que a Harry solo le quedó una cicatriz en la frente con forma de rayo.
                             </p>
                         </div>
@@ -133,7 +135,8 @@
                     <div class="position-absolute start-0 bottom-0 d-flex flex-column justify-content-center w-100 rounded-bottom text-center"
                         style="height: 100px; background: rgba(34, 36, 41, .9);">
                         <h5 class="text-light">Harry Potter</h5>
-                        <p class="small text-uppercase text-secondary m-0" style="letter-spacing: 3px;">Daniel Radcliffe</p>
+                        <p class="small text-uppercase text-secondary m-0" style="letter-spacing: 3px;">Daniel Radcliffe
+                        </p>
                     </div>
                 </div>
             </div>
@@ -142,9 +145,11 @@
                     <div class="position-relative overflow-hidden rounded-circle rounded-bottom rounded-end">
                         <img class="img-fluid w-100" src="img/RonWeasley.webp">
                         <div class="team-overlay">
-                            <p class="small text-uppercase text-secondary m-0" style="text-align: center; font-size: 15px; padding: 15px;">
-                                Ron Weasley es el mejor amigo de Harry Potter y, junto con Hermione Granger, uno de sus 
-                                compañeros de aventuras. Ron vive a la sombra de sus cinco hermanos mayores, además de la del propio Harry, lo 
+                            <p class="small text-uppercase text-secondary m-0"
+                                style="text-align: center; font-size: 15px; padding: 15px;">
+                                Ron Weasley es el mejor amigo de Harry Potter y, junto con Hermione Granger, uno de sus
+                                compañeros de aventuras. Ron vive a la sombra de sus cinco hermanos mayores, además de
+                                la del propio Harry, lo
                                 cual ha generado varias discusiones entre ambos a lo largo de la serie.
                             </p>
                         </div>
@@ -161,11 +166,12 @@
                     <div class="position-relative overflow-hidden rounded-circle rounded-bottom rounded-end">
                         <img class="img-fluid w-100" src="img/HermioneGranger.webp">
                         <div class="team-overlay">
-                            <p class="small text-uppercase text-secondary m-0" style="text-align: center; font-size: 15px; padding: 15px;">
-                                Hermione Granger compone junto con Harry y Ron el trío de protagonistas, llamado el trío 
-                                de oro. Hermione es muy inteligente y estudiosa, siempre antepone la lógica y el 
-                                pensamiento frío ante la valentía de sus compañeros. A partir del cuarto libro expone 
-                                implícitamente sus sentimientos hacia Ron, los cuales no se aclararán hasta la última 
+                            <p class="small text-uppercase text-secondary m-0"
+                                style="text-align: center; font-size: 15px; padding: 15px;">
+                                Hermione Granger compone junto con Harry y Ron el trío de protagonistas, llamado el trío
+                                de oro. Hermione es muy inteligente y estudiosa, siempre antepone la lógica y el
+                                pensamiento frío ante la valentía de sus compañeros. A partir del cuarto libro expone
+                                implícitamente sus sentimientos hacia Ron, los cuales no se aclararán hasta la última
                                 entrega.
                             </p>
                         </div>
@@ -180,6 +186,60 @@
         </div>
     </div>
     <!-- Personajes/Actores -->
+
+    <!-- Formulario de personaje -->
+    <div class="container-fluid bg-dark text-white p-5 my-5">
+        <form id="harryForm">
+            <div class="row gy-4">
+             <div class="col-12 text-center mt-4">
+                <h1 class="display-4 text-secondary mb-5">Descubre tu personaje de Harry Potter</h1>
+                <p class="text-secondary">Responde las siguientes preguntas para descubrir qué personaje de Harry Potter
+                        te representa mejor.</p>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">¿Qué valor te representa mejor?</label>
+                    <select class="form-select" name="valor" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="coraje">Coraje</option>
+                        <option value="inteligencia">Inteligencia</option>
+                        <option value="lealtad">Lealtad</option>
+                        <option value="ambición">Ambición</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label">¿Cómo preferís trabajar?</label>
+                    <select class="form-select" name="trabajo" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="solo">Solo</option>
+                        <option value="equipo">En equipo</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label">¿Cómo enfrentás un problema?</label>
+                    <select class="form-select" name="problema" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="actuar rápidamente">Actuar rápidamente</option>
+                        <option value="consultar con amigos">Consultar con amigos</option>
+                        <option value="pensar diferente">Pensar diferente</option>
+                        <option value="evitar el conflicto directo">Evitar el conflicto directo</option>
+                        <option value="investigar primero">Investigar primero</option>
+                        <option value="ser justo y cooperar">Ser justo y cooperar</option>
+                    </select>
+                </div>
+
+                <div class="col-12 text-center mt-4">
+                    <button type="button" class="btn btn-light px-4" id="btnDescubrirPersonaje">Descubrir
+                        personaje</button>
+                </div>
+            </div>
+        </form>
+
+        <div id="resultado" class="mt-5 text-center"></div>
+    </div>
+    <!-- Fin del formulario -->
+
 
     <!-- Pie de página -->
     <div class="container-fluid bg-dark text-secondary px-5">
@@ -221,5 +281,7 @@
     <script src="js/main.js"></script>
     <script src="js/formularioCasas.js"></script>
     <script src="js/mapa.js"></script>
+    <script src="js/formularioPersonajes.js"></script>
 </body>
+
 </html>
