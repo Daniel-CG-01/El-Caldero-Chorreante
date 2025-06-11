@@ -10,7 +10,6 @@ document.getElementById("casas").addEventListener("submit", function (e) {
         Ravenclaw: 0
     };
 
-    //Seleccionamos todas las respuestas marcadas
     const respuestas = document.querySelectorAll("input[type='radio']:checked");
 
     //Sumamos puntos a cada casa

@@ -1,0 +1,19 @@
+[{
+    "nombre": "CIPFP Ausiàs March",
+    "coords": {
+        "lat": 39.4497764,
+        "lng": -0.3764262
+    }
+},{
+    "nombre": "Warner Bros. Studio Tour London",
+    "coords": {
+        "lat": 51.6906,
+        "lng": -0.4184
+    }
+},{
+    "nombre": "King's Cross Station",
+    "coords": {
+        "lat": 51.5308,
+        "lng": -0.1238
+    }
+}]
