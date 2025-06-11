@@ -5,7 +5,7 @@ const harryForm = document.getElementById('harryForm');
 let personajesData = []; // Renamed from 'personajes' to avoid confusion and be more descriptive
 
 // Fetch the character data
-fetch('json/personajes_harry_potter_corregido.json') // Asegúrate que esta ruta sea la correcta
+fetch('json/personajes_harry_potter_corregido.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -22,7 +22,7 @@ fetch('json/personajes_harry_potter_corregido.json') // Asegúrate que esta ruta
     });
 
 // Event listener for the "Descubrir personaje" button
-btnDescubrir.addEventListener('click', function(event) {
+btnDescubrir.addEventListener('click', function (event) {
     event.preventDefault(); // Previene el envío del formulario por defecto
 
     if (personajesData.length === 0) {
@@ -52,7 +52,7 @@ btnDescubrir.addEventListener('click', function(event) {
         if (personaje.respuesta_clave.valor === valorSeleccionado &&
             personaje.respuesta_clave.trabajo === trabajoSeleccionado &&
             personaje.respuesta_clave.problema === problemaSeleccionado) {
-            
+
             personajeEncontrado = personaje; // Hemos encontrado una coincidencia exacta
             break; // Salir del bucle, ya que solo necesitamos el primero que coincida
         }
