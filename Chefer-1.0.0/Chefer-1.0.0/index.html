@@ -590,7 +590,49 @@
     <!-- Personajes/Actores -->
     
     <!-- Formulario Personajes -->
-    
+    <div class="container-fluid bg-dark text-white p-5 my-5">
+        <form id="harryForm">
+            <div class="row gy-4">
+                <div class="col-12 text-center mt-4">
+                    <h1 class="display-4 text-secondary mb-5">¿QUÉ PERSONAJE DE HARRY POTTER ERES?</h1>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">¿Qué valor te representa mejor?</label>
+                    <select class="form-select" name="valor" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="coraje">Coraje</option>
+                        <option value="inteligencia">Inteligencia</option>
+                        <option value="lealtad">Lealtad</option>
+                        <option value="ambición">Ambición</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">¿Cómo prefieres trabajar?</label>
+                    <select class="form-select" name="trabajo" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="solo">Solo</option>
+                        <option value="equipo">En equipo</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">¿Cómo enfrentas un problema?</label>
+                    <select class="form-select" name="problema" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="actuar rápidamente">Actuar rápidamente</option>
+                        <option value="consultar con amigos">Consultar con amigos</option>
+                        <option value="pensar diferente">Pensar diferente</option>
+                        <option value="evitar el conflicto directo">Evitar el conflicto directo</option>
+                        <option value="investigar primero">Investigar primero</option>
+                        <option value="ser justo y cooperar">Ser justo y cooperar</option>
+                    </select>
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <button type="button" class="btn btn-light px-4" id="btnDescubrirPersonaje">Enviar</button>
+                </div>
+            </div>
+        </form>
+        <div id="resultado" class="mt-5 text-center"></div>
+    </div>
     <!-- Formulario Personajes -->
 
     <!-- Noticias -->
@@ -754,6 +796,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/formularioCasas.js"></script>
+    <script src="js/formularioPersonajes.js"></script>
     <script src="js/mapa.js"></script>
 </body>
 </html>
