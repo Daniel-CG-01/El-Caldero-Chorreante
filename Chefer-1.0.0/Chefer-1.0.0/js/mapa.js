@@ -24,17 +24,17 @@ window.addEventListener("DOMContentLoaded", function () {
     const mapa = new google.maps.Map(document.getElementById("mapa"), {
         center: { lat: ubicaciones[0].lat, lng: ubicaciones[0].lng },
         zoom: 5,
-        mapTypeId: google.maps.mapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
     ubicaciones.forEach((lugar) => {
         const marcador = new google.maps.Marker({
             position: {lat: lugar.lat, lng: lugar.lng },
             map: mapa,
-            tittle: lugar.nombre
+            title: lugar.nombre
         });
 
-        const infoWindow = new google.maps.infoWindow({
+        const infoWindow = new google.maps.InfoWindow({
             content: '<h5>${lugar.nombre}</h5><p>${lugar.info}</p>'
         });
 
