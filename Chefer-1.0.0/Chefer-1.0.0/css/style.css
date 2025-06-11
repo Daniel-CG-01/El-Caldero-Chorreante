@@ -1,10 +1,15 @@
 /********** Template CSS **********/
 
+/* General */
 #spinner {
     opacity: 0;
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
 }
 
 #spinner.show {
@@ -13,33 +18,27 @@
     opacity: 1;
 }
 
-h1,
-h2,
-h3,
-.font-heading {
+h1, h2, h3, .font-heading {
     font-family: "Emblema One", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 
-h4,
-h5,
-h6,
-.font-body {
+h4, h5, h6, .font-body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
-@media (min-width: 992px) {
-    .display-1 {
-        font-size: 7rem;
-    }
+.display-1 {
+    font-size: 3rem;
 }
 
 .btn {
     font-family: "Emblema One", system-ui;
     transition: .5s;
+    font-size: 1rem;
+    padding: 8px 16px;
 }
 
 .btn-primary {
@@ -91,30 +90,21 @@ h6,
     color: var(--bs-primary);
 }
 
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link {
-        margin-right: 0;
-        padding: 10px 0;
-    }
+.navbar .nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    top: 100%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+    transition: .5s;
+    opacity: 0;
 }
 
-@media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        visibility: hidden;
-        top: 100%;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        transition: .5s;
-        opacity: 0;
-    }
-
-    .navbar .nav-item:hover .dropdown-menu {
-        transform: rotateX(0deg);
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
+.navbar .nav-item:hover .dropdown-menu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
 }
 
 .section-title {
@@ -129,16 +119,10 @@ h6,
     animation: animateUpDown 1s ease infinite;
 }
 
-@keyframes animateUpDown { 
-    0% { 
-        top: 0px;
-    }
-    50% { 
-        top: 10px;
-    }
-    100% { 
-        top: 0px;
-    } 
+@keyframes animateUpDown {
+    0% { top: 0px; }
+    50% { top: 10px; }
+    100% { top: 0px; }
 }
 
 .animate-rotate {
@@ -146,10 +130,8 @@ h6,
     animation: animateRotate 8s linear infinite;
 }
 
-@keyframes animateRotate { 
-    100% { 
-        transform: rotate(360deg); 
-    } 
+@keyframes animateRotate {
+    100% { transform: rotate(360deg); }
 }
 
 .bg-hero {
@@ -176,12 +158,19 @@ h6,
     background: linear-gradient(var(--bs-light) 50%, var(--bs-dark));
 }
 
-.menu .tab-content img {
+.menu .tab-content img,
+.blog-item img,
+.instagram img {
     transition: .5s;
 }
 
-.menu .tab-content img:hover {
+.menu .tab-content img:hover,
+.instagram img:hover {
     opacity: .7;
+}
+
+.blog-item:hover img {
+    transform: scale(1.2);
 }
 
 .team-item img {
@@ -245,24 +234,106 @@ h6,
     height: 90px;
 }
 
-.blog-item img {
-    transition: .5s;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.blog-item:hover img {
-    transform: scale(1.2);
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.instagram img {
-    transition: .5s;
+/* Responsive Breakpoints */
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .display-1 {
+        font-size: 4.5rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 15px 0;
+        margin-right: 15px;
+    }
+
+    .feature {
+        margin-bottom: 80px;
+    }
+
+    .team-item:hover img {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
 }
 
-.instagram img:hover {
-    opacity: .9;
+/* Móviles */
+@media (max-width: 767.98px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .display-1 {
+        font-size: 3rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 15px;
+        text-align: center;
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .feature {
+        margin-bottom: 60px;
+    }
+
+    .feature .feature-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-item:hover img {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .team-item .team-overlay {
+        top: auto;
+        bottom: 0;
+    }
+
+    .testimonial-carousel .owl-nav {
+        justify-content: center;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
 }
 
-@media (min-width: 991.98px) {
+/* Escritorio */
+@media (min-width: 992px) {
+    .display-1 {
+        font-size: 7rem;
+    }
+
     .credit {
         background: #111111;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        padding: 10px 20px;
     }
 }
