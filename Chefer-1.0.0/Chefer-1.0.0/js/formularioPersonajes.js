@@ -78,4 +78,8 @@ btnDescubrir.addEventListener('click', function (event) {
         //Mensaje si no se encuentra ninguna coincidencia exacta
         resultadoDiv.innerHTML = '<p style="color:white;">No pudimos encontrar un personaje que encaje **exactamente** con todas tus respuestas. ¡Intenta combinar otras opciones!</p>';
     }
+
+    setTimeout(() => {
+        btnDescubrir.textContent = "Enviado"
+    }, 2000);
 });

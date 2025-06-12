@@ -84,7 +84,7 @@
                                     <a href="citasPersonajes.html" class="dropdown-item">Citas de Personajes</a>
                                 </div>
                             </div>
-                            <a href="registro.html" class="nav-item nav-link">Registro</a>
+                            <a href="registro.html" class="nav-item nav-link active">Registro</a>
                         </div>
                     </div>
                 </nav>
@@ -104,19 +104,19 @@
         <div class="row g-5">
             <div class="col-lg-6">
                 <div class="bg-light rounded h-100 p-5">
-                    <form>
+                    <form id="registro">
                         <div class="row g-3">
                             <div class="col-6">
-                                <input type="text" class="form-control bg-white border-0 px-4" placeholder="Nombre" style="height: 55px;">
+                                <input type="text" id="nombre" class="form-control bg-white border-0 px-4" placeholder="Nombre" style="height: 55px;">
                             </div>
                             <div class="col-6">
-                                <input type="text" class="form-control bg-white border-0 px-4" placeholder="Apellidos" style="height: 55px;">
+                                <input type="text" id="apellidos" class="form-control bg-white border-0 px-4" placeholder="Apellidos" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control bg-white border-0 px-4" placeholder="Email" style="height: 55px;">
+                                <input type="email" id="email" class="form-control bg-white border-0 px-4" placeholder="Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="password" class="form-control bg-white border-0 px-4" placeholder="Contraseña" style="height: 55px;">
+                                <input type="password" id="contraseña" class="form-control bg-white border-0 px-4" placeholder="Contraseña" style="height: 55px;">
                             </div>
                             <div class="col-12">
                                 <p class="mb-4">Selecciona tu edad:</p>
@@ -124,11 +124,11 @@
                                 <span id="valorEdad">0</span>
                             </div>
                             <div class="col-12">
-                                <input type="checkbox"><a href="https://youtu.be/Yn_uHvb5vPQ?si=VaP4DElUpP-qLZob" target="_blank"> 
+                                <input type="checkbox" id="casillaTexto"><a href="https://youtu.be/Yn_uHvb5vPQ?si=VaP4DElUpP-qLZob" target="_blank"> 
                                     ¿Aceptas los términos y condiciones?</a>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Registrarse</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit" id="btnRegistro">Registrarse</button>
                             </div>
                         </div>
                     </form>
